@@ -14,6 +14,17 @@
 		88DEB1C1300FF4B900CA9B57 /* AIInterviewAssistantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DEB1C0300FF4B900CA9B57 /* AIInterviewAssistantTests.swift */; };
 		88DEB1CB300FF4B900CA9B57 /* AIInterviewAssistantUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DEB1CA300FF4B900CA9B57 /* AIInterviewAssistantUITests.swift */; };
 		88DEB1CD300FF4B900CA9B57 /* AIInterviewAssistantUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DEB1CC300FF4B900CA9B57 /* AIInterviewAssistantUITestsLaunchTests.swift */; };
+		88DEB1E0300FFF4800CA9B57 /* AIService .swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DEB1DF300FFF4800CA9B57 /* AIService .swift */; };
+		88DEB1E2300FFF5B00CA9B57 /* OpenAIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DEB1E1300FFF5B00CA9B57 /* OpenAIService.swift */; };
+		88DEB1E4300FFF6D00CA9B57 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DEB1E3300FFF6C00CA9B57 /* APIClient.swift */; };
+		88DEB1E6300FFF7900CA9B57 /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DEB1E5300FFF7900CA9B57 /* EndPoint.swift */; };
+		88DEB1E83010001F00CA9B57 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DEB1E73010001F00CA9B57 /* ChatView.swift */; };
+		88DEB1EA3010002D00CA9B57 /* MessageBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DEB1E93010002D00CA9B57 /* MessageBubble.swift */; };
+		88DEB1EC3010003B00CA9B57 /* InputBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DEB1EB3010003B00CA9B57 /* InputBar.swift */; };
+		88DEB1EE3010004C00CA9B57 /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DEB1ED3010004C00CA9B57 /* ChatViewModel.swift */; };
+		88DEB1F03010005F00CA9B57 /* ChatRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DEB1EF3010005F00CA9B57 /* ChatRequest.swift */; };
+		88DEB1F23010006800CA9B57 /* ChatResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DEB1F13010006800CA9B57 /* ChatResponse.swift */; };
+		88DEB1F43010007300CA9B57 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DEB1F33010007300CA9B57 /* Message.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +55,17 @@
 		88DEB1C6300FF4B900CA9B57 /* AIInterviewAssistantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AIInterviewAssistantUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88DEB1CA300FF4B900CA9B57 /* AIInterviewAssistantUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIInterviewAssistantUITests.swift; sourceTree = "<group>"; };
 		88DEB1CC300FF4B900CA9B57 /* AIInterviewAssistantUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIInterviewAssistantUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		88DEB1DF300FFF4800CA9B57 /* AIService .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AIService .swift"; sourceTree = "<group>"; };
+		88DEB1E1300FFF5B00CA9B57 /* OpenAIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIService.swift; sourceTree = "<group>"; };
+		88DEB1E3300FFF6C00CA9B57 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		88DEB1E5300FFF7900CA9B57 /* EndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
+		88DEB1E73010001F00CA9B57 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		88DEB1E93010002D00CA9B57 /* MessageBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageBubble.swift; sourceTree = "<group>"; };
+		88DEB1EB3010003B00CA9B57 /* InputBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputBar.swift; sourceTree = "<group>"; };
+		88DEB1ED3010004C00CA9B57 /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
+		88DEB1EF3010005F00CA9B57 /* ChatRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRequest.swift; sourceTree = "<group>"; };
+		88DEB1F13010006800CA9B57 /* ChatResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatResponse.swift; sourceTree = "<group>"; };
+		88DEB1F33010007300CA9B57 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +158,9 @@
 		88DEB1D9300FF4E900CA9B57 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				88DEB1EF3010005F00CA9B57 /* ChatRequest.swift */,
+				88DEB1F13010006800CA9B57 /* ChatResponse.swift */,
+				88DEB1F33010007300CA9B57 /* Message.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -143,6 +168,9 @@
 		88DEB1DA300FF95D00CA9B57 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				88DEB1E73010001F00CA9B57 /* ChatView.swift */,
+				88DEB1E93010002D00CA9B57 /* MessageBubble.swift */,
+				88DEB1EB3010003B00CA9B57 /* InputBar.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -150,6 +178,7 @@
 		88DEB1DB300FF96900CA9B57 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				88DEB1ED3010004C00CA9B57 /* ChatViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -157,6 +186,8 @@
 		88DEB1DC300FF97000CA9B57 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				88DEB1DF300FFF4800CA9B57 /* AIService .swift */,
+				88DEB1E1300FFF5B00CA9B57 /* OpenAIService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -164,6 +195,8 @@
 		88DEB1DD300FF97C00CA9B57 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				88DEB1E3300FFF6C00CA9B57 /* APIClient.swift */,
+				88DEB1E5300FFF7900CA9B57 /* EndPoint.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -305,8 +338,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88DEB1E6300FFF7900CA9B57 /* EndPoint.swift in Sources */,
+				88DEB1E0300FFF4800CA9B57 /* AIService .swift in Sources */,
 				88DEB1B2300FF4B500CA9B57 /* ContentView.swift in Sources */,
 				88DEB1B0300FF4B500CA9B57 /* AIInterviewAssistantApp.swift in Sources */,
+				88DEB1E83010001F00CA9B57 /* ChatView.swift in Sources */,
+				88DEB1E4300FFF6D00CA9B57 /* APIClient.swift in Sources */,
+				88DEB1F03010005F00CA9B57 /* ChatRequest.swift in Sources */,
+				88DEB1E2300FFF5B00CA9B57 /* OpenAIService.swift in Sources */,
+				88DEB1F23010006800CA9B57 /* ChatResponse.swift in Sources */,
+				88DEB1F43010007300CA9B57 /* Message.swift in Sources */,
+				88DEB1EC3010003B00CA9B57 /* InputBar.swift in Sources */,
+				88DEB1EE3010004C00CA9B57 /* ChatViewModel.swift in Sources */,
+				88DEB1EA3010002D00CA9B57 /* MessageBubble.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
