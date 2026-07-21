@@ -25,6 +25,10 @@
 		88DEB1F03010005F00CA9B57 /* ChatRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DEB1EF3010005F00CA9B57 /* ChatRequest.swift */; };
 		88DEB1F23010006800CA9B57 /* ChatResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DEB1F13010006800CA9B57 /* ChatResponse.swift */; };
 		88DEB1F43010007300CA9B57 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DEB1F33010007300CA9B57 /* Message.swift */; };
+		88DEB1F63010052400CA9B57 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DEB1F53010052400CA9B57 /* APIError.swift */; };
+		88DEB1F83010054D00CA9B57 /* APIConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DEB1F73010054D00CA9B57 /* APIConstant.swift */; };
+		88DEB1FA301005A100CA9B57 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DEB1F9301005A100CA9B57 /* HTTPMethod.swift */; };
+		88DEB1FC301005CE00CA9B57 /* ErrorMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DEB1FB301005CE00CA9B57 /* ErrorMapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +70,10 @@
 		88DEB1EF3010005F00CA9B57 /* ChatRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRequest.swift; sourceTree = "<group>"; };
 		88DEB1F13010006800CA9B57 /* ChatResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatResponse.swift; sourceTree = "<group>"; };
 		88DEB1F33010007300CA9B57 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		88DEB1F53010052400CA9B57 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		88DEB1F73010054D00CA9B57 /* APIConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstant.swift; sourceTree = "<group>"; };
+		88DEB1F9301005A100CA9B57 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		88DEB1FB301005CE00CA9B57 /* ErrorMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,6 +205,10 @@
 			children = (
 				88DEB1E3300FFF6C00CA9B57 /* APIClient.swift */,
 				88DEB1E5300FFF7900CA9B57 /* EndPoint.swift */,
+				88DEB1F53010052400CA9B57 /* APIError.swift */,
+				88DEB1F73010054D00CA9B57 /* APIConstant.swift */,
+				88DEB1F9301005A100CA9B57 /* HTTPMethod.swift */,
+				88DEB1FB301005CE00CA9B57 /* ErrorMapper.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -341,16 +353,20 @@
 				88DEB1E6300FFF7900CA9B57 /* EndPoint.swift in Sources */,
 				88DEB1E0300FFF4800CA9B57 /* AIService .swift in Sources */,
 				88DEB1B2300FF4B500CA9B57 /* ContentView.swift in Sources */,
+				88DEB1FC301005CE00CA9B57 /* ErrorMapper.swift in Sources */,
 				88DEB1B0300FF4B500CA9B57 /* AIInterviewAssistantApp.swift in Sources */,
 				88DEB1E83010001F00CA9B57 /* ChatView.swift in Sources */,
 				88DEB1E4300FFF6D00CA9B57 /* APIClient.swift in Sources */,
 				88DEB1F03010005F00CA9B57 /* ChatRequest.swift in Sources */,
 				88DEB1E2300FFF5B00CA9B57 /* OpenAIService.swift in Sources */,
+				88DEB1F83010054D00CA9B57 /* APIConstant.swift in Sources */,
 				88DEB1F23010006800CA9B57 /* ChatResponse.swift in Sources */,
 				88DEB1F43010007300CA9B57 /* Message.swift in Sources */,
 				88DEB1EC3010003B00CA9B57 /* InputBar.swift in Sources */,
+				88DEB1FA301005A100CA9B57 /* HTTPMethod.swift in Sources */,
 				88DEB1EE3010004C00CA9B57 /* ChatViewModel.swift in Sources */,
 				88DEB1EA3010002D00CA9B57 /* MessageBubble.swift in Sources */,
+				88DEB1F63010052400CA9B57 /* APIError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
