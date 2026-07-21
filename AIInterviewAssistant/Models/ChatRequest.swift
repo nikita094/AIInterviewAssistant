@@ -6,3 +6,17 @@
 //
 
 import Foundation
+
+struct ChatRequest: Encodable {
+
+    let model: String
+    let messages: [ChatMessage]
+
+}
+
+struct ChatMessage: Encodable {
+
+    let role: String
+    let content: String
+
+}
