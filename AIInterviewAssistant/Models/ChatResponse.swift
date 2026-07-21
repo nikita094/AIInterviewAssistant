@@ -6,3 +6,22 @@
 //
 
 import Foundation
+
+struct ChatResponse: Decodable {
+
+    let choices: [Choice]
+
+}
+
+struct Choice: Decodable {
+
+    let message: AssistantMessage
+
+}
+
+struct AssistantMessage: Decodable {
+
+    let role: String
+    let content: String
+
+}
