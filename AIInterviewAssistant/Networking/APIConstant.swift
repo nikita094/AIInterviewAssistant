@@ -7,9 +7,13 @@
 
 import Foundation
 
+struct APIConstant {
 
-enum APIConstants {
+    static let baseURL = "https://generativelanguage.googleapis.com/v1beta"
 
-    static let baseURL = "https://api.openai.com/v1"
+    static var apiKey: String {
+        Bundle.main.object(forInfoDictionaryKey: "API_KEY") as? String ?? ""
+    }
 
+    static let model = "gemini-flash-latest"
 }

@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		88198AE93010911000935EA6 /* ChatMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88198AE83010911000935EA6 /* ChatMessage.swift */; };
+		887329543011312D000A2F6F /* GeminiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887329533011312C000A2F6F /* GeminiRequest.swift */; };
+		8873295630113146000A2F6F /* GeminiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8873295530113146000A2F6F /* GeminiResponse.swift */; };
+		8873295830113CB2000A2F6F /* QuestionValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8873295730113CB2000A2F6F /* QuestionValidator.swift */; };
 		88DEB1B0300FF4B500CA9B57 /* AIInterviewAssistantApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DEB1AF300FF4B500CA9B57 /* AIInterviewAssistantApp.swift */; };
-		88DEB1B2300FF4B500CA9B57 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DEB1B1300FF4B500CA9B57 /* ContentView.swift */; };
 		88DEB1B4300FF4B800CA9B57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88DEB1B3300FF4B800CA9B57 /* Assets.xcassets */; };
 		88DEB1B7300FF4B800CA9B57 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88DEB1B6300FF4B800CA9B57 /* Preview Assets.xcassets */; };
 		88DEB1C1300FF4B900CA9B57 /* AIInterviewAssistantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DEB1C0300FF4B900CA9B57 /* AIInterviewAssistantTests.swift */; };
@@ -49,9 +52,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		88198AE83010911000935EA6 /* ChatMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessage.swift; sourceTree = "<group>"; };
+		887329533011312C000A2F6F /* GeminiRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeminiRequest.swift; sourceTree = "<group>"; };
+		8873295530113146000A2F6F /* GeminiResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeminiResponse.swift; sourceTree = "<group>"; };
+		8873295730113CB2000A2F6F /* QuestionValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionValidator.swift; sourceTree = "<group>"; };
+		8873295A30114860000A2F6F /* Secrets.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Secrets.xcconfig; sourceTree = "<group>"; };
+		8873295B30114963000A2F6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8873295D30114B27000A2F6F /*  Secrets.example.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = " Secrets.example.xcconfig"; sourceTree = "<group>"; };
 		88DEB1AC300FF4B500CA9B57 /* AIInterviewAssistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AIInterviewAssistant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88DEB1AF300FF4B500CA9B57 /* AIInterviewAssistantApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIInterviewAssistantApp.swift; sourceTree = "<group>"; };
-		88DEB1B1300FF4B500CA9B57 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		88DEB1B3300FF4B800CA9B57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88DEB1B6300FF4B800CA9B57 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		88DEB1BC300FF4B900CA9B57 /* AIInterviewAssistantTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AIInterviewAssistantTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -101,9 +110,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8873295C30114AC7000A2F6F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				88DEB1B3300FF4B800CA9B57 /* Assets.xcassets */,
+				8873295B30114963000A2F6F /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		88DEB1A3300FF4B500CA9B57 = {
 			isa = PBXGroup;
 			children = (
+				8873295D30114B27000A2F6F /*  Secrets.example.xcconfig */,
+				8873295A30114860000A2F6F /* Secrets.xcconfig */,
 				88DEB1AE300FF4B500CA9B57 /* AIInterviewAssistant */,
 				88DEB1BF300FF4B900CA9B57 /* AIInterviewAssistantTests */,
 				88DEB1C9300FF4B900CA9B57 /* AIInterviewAssistantUITests */,
@@ -124,6 +144,7 @@
 		88DEB1AE300FF4B500CA9B57 /* AIInterviewAssistant */ = {
 			isa = PBXGroup;
 			children = (
+				8873295C30114AC7000A2F6F /* Resources */,
 				88DEB1DE300FF98700CA9B57 /* Utilities */,
 				88DEB1DD300FF97C00CA9B57 /* Networking */,
 				88DEB1DC300FF97000CA9B57 /* Services */,
@@ -131,8 +152,6 @@
 				88DEB1DA300FF95D00CA9B57 /* Views */,
 				88DEB1D9300FF4E900CA9B57 /* Models */,
 				88DEB1AF300FF4B500CA9B57 /* AIInterviewAssistantApp.swift */,
-				88DEB1B1300FF4B500CA9B57 /* ContentView.swift */,
-				88DEB1B3300FF4B800CA9B57 /* Assets.xcassets */,
 				88DEB1B5300FF4B800CA9B57 /* Preview Content */,
 			);
 			path = AIInterviewAssistant;
@@ -169,6 +188,9 @@
 				88DEB1EF3010005F00CA9B57 /* ChatRequest.swift */,
 				88DEB1F13010006800CA9B57 /* ChatResponse.swift */,
 				88DEB1F33010007300CA9B57 /* Message.swift */,
+				88198AE83010911000935EA6 /* ChatMessage.swift */,
+				887329533011312C000A2F6F /* GeminiRequest.swift */,
+				8873295530113146000A2F6F /* GeminiResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -216,6 +238,7 @@
 		88DEB1DE300FF98700CA9B57 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				8873295730113CB2000A2F6F /* QuestionValidator.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -352,20 +375,23 @@
 			files = (
 				88DEB1E6300FFF7900CA9B57 /* EndPoint.swift in Sources */,
 				88DEB1E0300FFF4800CA9B57 /* AIService .swift in Sources */,
-				88DEB1B2300FF4B500CA9B57 /* ContentView.swift in Sources */,
 				88DEB1FC301005CE00CA9B57 /* ErrorMapper.swift in Sources */,
 				88DEB1B0300FF4B500CA9B57 /* AIInterviewAssistantApp.swift in Sources */,
 				88DEB1E83010001F00CA9B57 /* ChatView.swift in Sources */,
 				88DEB1E4300FFF6D00CA9B57 /* APIClient.swift in Sources */,
+				8873295830113CB2000A2F6F /* QuestionValidator.swift in Sources */,
 				88DEB1F03010005F00CA9B57 /* ChatRequest.swift in Sources */,
 				88DEB1E2300FFF5B00CA9B57 /* OpenAIService.swift in Sources */,
+				88198AE93010911000935EA6 /* ChatMessage.swift in Sources */,
 				88DEB1F83010054D00CA9B57 /* APIConstant.swift in Sources */,
+				8873295630113146000A2F6F /* GeminiResponse.swift in Sources */,
 				88DEB1F23010006800CA9B57 /* ChatResponse.swift in Sources */,
 				88DEB1F43010007300CA9B57 /* Message.swift in Sources */,
 				88DEB1EC3010003B00CA9B57 /* InputBar.swift in Sources */,
 				88DEB1FA301005A100CA9B57 /* HTTPMethod.swift in Sources */,
 				88DEB1EE3010004C00CA9B57 /* ChatViewModel.swift in Sources */,
 				88DEB1EA3010002D00CA9B57 /* MessageBubble.swift in Sources */,
+				887329543011312D000A2F6F /* GeminiRequest.swift in Sources */,
 				88DEB1F63010052400CA9B57 /* APIError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +431,7 @@
 /* Begin XCBuildConfiguration section */
 		88DEB1CE300FF4B900CA9B57 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8873295A30114860000A2F6F /* Secrets.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -465,6 +492,7 @@
 		};
 		88DEB1CF300FF4B900CA9B57 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8873295A30114860000A2F6F /* Secrets.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -527,6 +555,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"AIInterviewAssistant/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AIInterviewAssistant/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -555,6 +584,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"AIInterviewAssistant/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AIInterviewAssistant/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

@@ -14,9 +14,4 @@ struct ChatRequest: Encodable {
 
 }
 
-struct ChatMessage: Encodable {
 
-    let role: String
-    let content: String
-
-}

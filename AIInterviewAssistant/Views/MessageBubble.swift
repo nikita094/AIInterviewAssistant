@@ -7,14 +7,42 @@
 
 import SwiftUI
 
-struct MessageBubble: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
 
-struct MessageBubble_Previews: PreviewProvider {
-    static var previews: some View {
-        MessageBubble()
+struct MessageBubble: View {
+    
+    let message: Message
+    
+    var body: some View {
+        
+        HStack {
+            
+            if message.role == .assistant {
+                
+                bubble
+                Spacer()
+                
+            } else {
+                
+                Spacer()
+                bubble
+            }
+        }
+    }
+    
+    private var bubble: some View {
+        
+        Text(message.content)
+            .padding()
+            .foregroundStyle(
+                message.role == .user
+                ? .white
+                : .primary
+            )
+            .background(
+                message.role == .user
+                ? Color.blue
+                : Color.gray.opacity(0.2)
+            )
+            .clipShape(RoundedRectangle(cornerRadius: 14))
     }
 }

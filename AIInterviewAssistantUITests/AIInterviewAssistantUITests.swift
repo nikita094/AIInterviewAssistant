@@ -2,7 +2,7 @@
 //  AIInterviewAssistantUITests.swift
 //  AIInterviewAssistantUITests
 //
-//  Created by Prit Kothadiya on 22/07/26.
+//  Created by Nikita Kothadiya on 22/07/26.
 //
 
 import XCTest

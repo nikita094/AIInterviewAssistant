@@ -1,5 +1,5 @@
 //
-//  AIService .swift
+//  ChatMessage.swift
 //  AIInterviewAssistant
 //
 //  Created by Nikita Kothadiya on 22/07/26.
@@ -7,6 +7,8 @@
 
 import Foundation
 
-protocol AIService {
-    func send(message: String) async throws -> String
+struct ChatMessage: Codable {
+
+    let role: String
+    let content: String
 }
