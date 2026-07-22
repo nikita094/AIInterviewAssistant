@@ -131,7 +131,10 @@ to securely manage API credentials.
 
 ## Screenshots
 
-_Add screenshots here after completing the UI._
+<img width="1179" height="2556" alt="Simulator Screen Shot - iPhone 14 Pro - 2026-07-23 at 00 57 01" src="https://github.com/user-attachments/assets/3981da8b-f4e6-4b97-9dc4-31306df6ec08" />
+<img width="1179" height="2556" alt="Simulator Screen Shot - iPhone 14 Pro - 2026-07-23 at 00 57 29" src="https://github.com/user-attachments/assets/96be1851-132e-4891-9a3f-c1d1b31bdc1b" />
+<img width="1179" height="2556" alt="Simulator Screen Shot - iPhone 14 Pro - 2026-07-23 at 00 57 24" src="https://github.com/user-attachments/assets/5de2fdb8-2738-448b-bd1c-ab2e5b2451d5" />
+
 
 ## Author
 
